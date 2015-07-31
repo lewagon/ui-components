@@ -1,0 +1,80 @@
+.post {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: all 0.15s ease;
+  &-upvote {
+    flex: 1 1 50px;
+  }
+  &-body {
+    flex: 1 1 650px;
+  }
+  &-controls {
+    flex: 0 1 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #B3B3B3;
+  }
+  &-comments {
+    flex: 0 1 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &-upvote {
+    transition: all 0.15s ease;
+    &:hover {
+      color: #5898f1;
+      cursor: pointer;
+      .post-upvote-arrow {
+        border-bottom: 9px solid #5898f1;
+      }
+    }
+    &-count {
+      font-size: 13px;
+      line-height: 20px;
+      margin: 2px 0 0;
+      font-weight: bold;
+    }
+    &-arrow {
+      transition: all 0.15s ease;
+      width: 0;
+      height: 0;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 6px solid transparent;
+      border-bottom: 9px solid black;
+      border-radius: 2px;
+      margin: auto;
+    }
+  }
+  &-body {
+    h3 {
+      font-weight: bold;
+      font-size: 23px
+    }
+    p {
+      font-weight: 500;
+      color: #999999;
+    }
+  }
+  &-control {
+    color: transparent;
+    font-size: 15px;
+    transition: all 0.15s ease;
+    &:hover {
+      color: $brand-color !important;
+    }
+  }
+  &:hover {
+    background: #f7f7fa;
+    cursor: pointer;
+    .post-upvote{
+      transform: scale(1.2);
+    }
+    .post-control{
+      color: #E6E6E6;
+    }
+  }
+}

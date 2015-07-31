@@ -1,0 +1,16 @@
+.share-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &-item {
+    flex: 0 1 80px;
+    color: white;
+    padding: 8px 10px;
+    margin: 0 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.card {
+  position: relative;
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  color: white;
+  margin-bottom: 20px;
+  &-bg{
+    background-image: url("https://files.producthunt.com/f0aa98c8-1d63-41c6-9257-5d968b289b40?x=700&y=350");
+    background-size: cover;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  &-shadow {
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.1) 80%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  &-description {
+    font-size: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  &-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 13px;
+    }
+  }
+  &-user {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    .avatar {
+      box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+      border: white 1px solid;
+    }
+  }
+  &-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index:2;
+    background: black;
+    opacity: 0;
+    &:hover{
+      opacity: 0.1;
+    }
+  }
+}
