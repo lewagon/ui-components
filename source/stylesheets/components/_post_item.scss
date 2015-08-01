@@ -4,23 +4,21 @@
   align-items: center;
   transition: all 0.15s ease;
   &-upvote {
-    flex: 1 1 50px;
+    flex: 0 0 80px;
   }
   &-body {
-    flex: 1 1 650px;
+    flex: 1 1 auto;
   }
   &-controls {
-    flex: 0 1 200px;
+    flex: 0 0 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: #B3B3B3;
-  }
-  &-comments {
-    flex: 0 1 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    &-item {
+      flex: 1 1 auto;
+      text-align: center;
+    }
   }
   &-upvote {
     transition: all 0.15s ease;
