@@ -1,9 +1,9 @@
 <nav class="navbar-wagon">
   <div class="container navbar-wagon-container">
 
-    <a href="#" class="navbar-wagon-logo">
-      <%= partial "lewagon" %>
-    </a>
+    <% link_to "/", class: "navbar-wagon-logo" do %>
+      <%= partial "partials/icons/lewagon" %>
+    <% end %>
 
     <form action="" class="navbar-wagon-search">
       <input type="text" class="navbar-wagon-search-input" placeholder="Search for featured stuff">
@@ -16,19 +16,19 @@
       <a href="" class="navbar-wagon-button btn btn-default">Post stuff</a>
     </div>
 
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Sign in</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
 
     <a href="" class="navbar-wagon-item navbar-wagon-link hidden-xs">
       <div class="icon-badge-container">
         <i class="fa fa-envelope-o"></i>
-        <div class="badge-wagon badge-wagon-blue">3</div>
+        <div class="icon-badge icon-badge-blue">3</div>
       </div>
     </a>
 
     <div class="navbar-wagon-item">
       <div class="dropdown">
 
-        <img src="https://a1.muscache.com/ic/users/4330323/profile_pic/1431779983/original.jpg?interpolation=lanczos-none&crop=w:w;*,*&crop=h:h;*,*&resize=225:*&output-format=jpg&output-quality=70" alt="" class="navbar-wagon-avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <img src="https://raw.githubusercontent.com/lewagon/design/master/pick-it/pictures/students/charlotte_cady.jpg" alt="" class="navbar-wagon-avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu" aria-labelledby="navbar-wagon-menu">
           <li><a href="#">Profile</a></li>

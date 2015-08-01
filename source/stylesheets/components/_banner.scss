@@ -1,5 +1,5 @@
 .banner {
-  background-image: url("https://files.producthunt.com/c4b66705-3aa9-48ac-a36f-cc8391f30099?x=1302&y=420");
+  background-image: url("https://unsplash.it/1000/500?image=0");
   background-size: cover;
   color: white;
   padding: 100px;
@@ -23,8 +23,5 @@
   &-content {
     position: relative;
     z-index: 2;
-  }
-  .post-upvote {
-    padding: 5px 12px;
   }
 }
