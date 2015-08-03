@@ -1,5 +1,5 @@
 .readme {
-  section {
+  &-section {
     background-color: #FAFAFA;
     padding: 20px;
     margin: 20px 0;
@@ -12,6 +12,11 @@
     position: absolute;
     right: 20px;
     bottom: 20px;
+  }
+
+  pre {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
   }
 
   // Headings

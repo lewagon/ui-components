@@ -1,3 +1,51 @@
+<h3 class="readme-header">With inline background</h3>
+
+<div class="card">
+  <span class="card-bg" style="background-image:url('https://unsplash.it/600/300?image=3')"></span>
+  <span class="card-shadow"></span>
+  <span class="card-description">Popular</span>
+  <span class="card-text">
+    <h2>Some stuff</h2>
+    <p>Very cool stuff, useful and smart</p>
+  </span>
+  <span class="card-user">
+    <img src='https://raw.githubusercontent.com/lewagon/design/master/pick-it/pictures/students/charlotte_cady.jpg' class="avatar avatar-bordered"/>
+  </span>
+  <a href="#" class="card-link"></a>
+</div>
+
+<% code("html") do %>
+<div class="card">
+  <span class="card-bg" style="background-image: url('product.jpg')"></span>
+  <span class="card-shadow"></span>
+  <span class="card-description">Popular</span>
+  <span class="card-text">
+    <h2>Some stuff</h2>
+    <p>Very cool stuff, useful and smart</p>
+  </span>
+  <span class="card-user">
+    <img src='user.jpg' class="avatar avatar-bordered"/>
+  </span>
+  <a href="#" class="card-link"></a>
+</div>
+<% end %>
+
+<h3 class="readme-header">Without inline background</h3>
+
+<div class="card">
+  <span class="card-bg"></span>
+  <span class="card-shadow"></span>
+  <span class="card-description">Popular</span>
+  <span class="card-text">
+    <h2>Some stuff</h2>
+    <p>Very cool stuff, useful and smart</p>
+  </span>
+  <span class="card-user">
+    <img src='https://raw.githubusercontent.com/lewagon/design/master/pick-it/pictures/students/charlotte_cady.jpg' class="avatar avatar-bordered"/>
+  </span>
+  <a href="#" class="card-link"></a>
+</div>
+
 <% code("html") do %>
 <div class="card">
   <span class="card-bg"></span>
@@ -14,21 +62,57 @@
 </div>
 <% end %>
 
-<div class="card">
-  <span class="card-bg"></span>
-  <span class="card-shadow"></span>
-  <span class="card-description">Popular</span>
-  <span class="card-text">
-    <h2>Some stuff</h2>
-    <p>Very cool stuff, useful and smart</p>
-  </span>
-  <span class="card-user">
-    <img src='https://raw.githubusercontent.com/lewagon/design/master/pick-it/pictures/students/charlotte_cady.jpg' class="avatar avatar-bordered"/>
-  </span>
-  <a href="#" class="card-link"></a>
-</div>
-
 <h3 class="readme-header">Combined with the grid</h3>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <div class="card">
+        <span class="card-bg" style="background-image: url('https://unsplash.it/600/300?image=0')"></span>
+        <span class="card-shadow"></span>
+        <span class="card-description">Popular</span>
+        <span class="card-text">
+          <h2>Some stuff</h2>
+          <p>Very cool stuff, useful and smart</p>
+        </span>
+        <span class="card-user">
+          <img src='https://raw.githubusercontent.com/lewagon/design/master/pick-it/pictures/students/charlotte_cady.jpg' class="avatar avatar-bordered"/>
+        </span>
+        <a href="#" class="card-link"></a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card">
+        <span class="card-bg" style="background-image: url('https://unsplash.it/600/300?image=1')"></span>
+        <span class="card-shadow"></span>
+        <span class="card-description">Popular</span>
+        <span class="card-text">
+          <h2>Some stuff</h2>
+          <p>Very cool stuff, useful and smart</p>
+        </span>
+        <span class="card-user">
+          <img src='https://raw.githubusercontent.com/lewagon/design/master/pick-it/pictures/students/charlotte_cady.jpg' class="avatar avatar-bordered"/>
+        </span>
+        <a href="#" class="card-link"></a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card">
+        <span class="card-bg" style="background-image: url('https://unsplash.it/600/300?image=2')"></span>
+        <span class="card-shadow"></span>
+        <span class="card-description">Popular</span>
+        <span class="card-text">
+          <h2>Some stuff</h2>
+          <p>Very cool stuff, useful and smart</p>
+        </span>
+        <span class="card-user">
+          <img src='https://raw.githubusercontent.com/lewagon/design/master/pick-it/pictures/students/charlotte_cady.jpg' class="avatar avatar-bordered"/>
+        </span>
+        <a href="#" class="card-link"></a>
+      </div>
+    </div>
+  </div>
+</div>
 
 <% code("html") do %>
 <div class="container">
@@ -45,53 +129,3 @@
   </div>
 </div>
 <% end %>
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-xs-12 col-sm-4">
-      <div class="card">
-        <span class="card-bg"></span>
-        <span class="card-shadow"></span>
-        <span class="card-description">Popular</span>
-        <span class="card-text">
-          <h2>Some stuff</h2>
-          <p>Very cool stuff, useful and smart</p>
-        </span>
-        <span class="card-user">
-          <img src='https://raw.githubusercontent.com/lewagon/design/master/pick-it/pictures/students/charlotte_cady.jpg' class="avatar avatar-bordered"/>
-        </span>
-        <a href="#" class="card-link"></a>
-      </div>
-    </div>
-    <div class="col-xs-12 col-sm-4">
-      <div class="card">
-        <span class="card-bg"></span>
-        <span class="card-shadow"></span>
-        <span class="card-description">Popular</span>
-        <span class="card-text">
-          <h2>Some stuff</h2>
-          <p>Very cool stuff, useful and smart</p>
-        </span>
-        <span class="card-user">
-          <img src='https://raw.githubusercontent.com/lewagon/design/master/pick-it/pictures/students/charlotte_cady.jpg' class="avatar avatar-bordered"/>
-        </span>
-        <a href="#" class="card-link"></a>
-      </div>
-    </div>
-    <div class="col-xs-12 col-sm-4">
-      <div class="card">
-        <span class="card-bg"></span>
-        <span class="card-shadow"></span>
-        <span class="card-description">Popular</span>
-        <span class="card-text">
-          <h2>Some stuff</h2>
-          <p>Very cool stuff, useful and smart</p>
-        </span>
-        <span class="card-user">
-          <img src='https://raw.githubusercontent.com/lewagon/design/master/pick-it/pictures/students/charlotte_cady.jpg' class="avatar avatar-bordered"/>
-        </span>
-        <a href="#" class="card-link"></a>
-      </div>
-    </div>
-  </div>
-</div>

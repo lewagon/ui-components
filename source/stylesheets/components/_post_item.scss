@@ -12,9 +12,13 @@
     flex: 0 0 150px;
     display: flex;
     align-items: center;
-    &-item {
-      flex: 1 1 0;
-      text-align: center;
+  }
+  &-control {
+    flex: 1 1 0;
+    text-align: center;
+    color: #E6E6E6;
+    &:hover {
+      color: $brand-color !important;
     }
   }
   &-upvote {
@@ -55,13 +59,10 @@
       color: #999999;
     }
   }
-  &-control {
+  &-control-hidden {
     color: transparent;
     font-size: 15px;
     transition: all 0.15s ease;
-    &:hover {
-      color: $brand-color !important;
-    }
   }
   &:hover {
     background: #f7f7fa;
@@ -69,7 +70,7 @@
     .post-upvote{
       transform: scale(1.2);
     }
-    .post-control{
+    .post-control-hidden{
       color: #E6E6E6;
     }
   }

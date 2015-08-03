@@ -1,0 +1,27 @@
+.media {
+  display: flex;
+  &-section {
+    margin: 40px auto;
+    padding: 10px;
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &-main {
+    flex: 1 1 auto;
+    padding: 30px;
+    img {
+      width: 50%;
+    }
+  }
+  &-aside {
+    flex: 0 0 350px;
+    padding: 30px;
+    align-self: stretch;
+    background: #F8F7F7;
+    border-left: 1px solid #f0efef;
+  }
+}
