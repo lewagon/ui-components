@@ -1,6 +1,5 @@
 .post {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   transition: all 0.15s ease;
   &-upvote {
@@ -10,25 +9,16 @@
     flex: 1 1 auto;
   }
   &-controls {
-    flex: 0 0 200px;
+    flex: 0 0 150px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    color: #B3B3B3;
     &-item {
-      flex: 1 1 auto;
+      flex: 1 1 0;
       text-align: center;
     }
   }
   &-upvote {
     transition: all 0.15s ease;
-    &:hover {
-      color: #5898f1;
-      cursor: pointer;
-      .post-upvote-arrow {
-        border-bottom: 9px solid #5898f1;
-      }
-    }
     &-count {
       font-size: 13px;
       line-height: 20px;
@@ -45,6 +35,13 @@
       border-bottom: 9px solid black;
       border-radius: 2px;
       margin: auto;
+    }
+    &:hover {
+      color: #5898f1;
+      cursor: pointer;
+      .post-upvote-arrow {
+        border-bottom: 9px solid #5898f1;
+      }
     }
   }
   &-body {
