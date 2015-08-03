@@ -1,19 +1,24 @@
 ---
-title: Le Wagon Middleman ProductHunt boilerplate
+title: Le Wagon UI components
 ---
 
-<div class="container padded">
+
+<div class="container readme">
   <div class="row">
-    <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-      <h1 class="section-heading">Product Hunt boilerplate</h1>
-      <p>
-        Read carefull our <a href="http://github.com/lewagon/producthunt-boilerplate" target="_blank">Github readme</a> to understand our HTML/CSS components. Here are some examples:
-      </p>
-      <ul>
-        <li><%= link_to "Posts list", "/examples/posts.html"%></li>
-        <li><%= link_to "Post layout", "/examples/post_layout.html"%></li>
-        <li><%= link_to "Cards grid", "/examples/cards.html"%></li>
-      </ul>
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+
+      <section>
+        <h2>Avatar</h2>
+        <%= partial "partials/components/avatar" %>
+        <%= link_to "Download .SCSS file", ""%>
+      </section>
+
+      <section>
+        <h2>Badge</h2>
+        <%= partial "partials/components/user_badge" %>
+        <%= partial "partials/components/icon_badge" %>
+      </section>
+
     </div>
   </div>
 </div>

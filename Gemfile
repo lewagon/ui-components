@@ -23,3 +23,7 @@ gem 'font-awesome-sass', '~> 4.2.0'
 
 # CSS performance
 gem 'middleman-autoprefixer'
+
+# Markdown support
+gem "middleman-syntax"
+gem 'pygments.rb', '~> 0.6.3'

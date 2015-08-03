@@ -1,0 +1,21 @@
+// Headings
+
+.section-heading {
+  color: #bbb;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+  margin: 0 0 16px;
+  text-transform: uppercase;
+}
+.timeline-heading {
+  span:first-child  {
+    font-weight: 700;
+    font-size: 17px;
+  }
+  span:last-child {
+    color: #bbbbbb;
+    font-weight: 300;
+    font-size: 12px;
+  }
+}
