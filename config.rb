@@ -90,3 +90,9 @@ end
 
 # Syntax Highlight Support
 activate :syntax
+
+helpers do
+  def github_sass_url(file)
+    "https://raw.githubusercontent.com/lewagon/ui-components/master/source/stylesheets/components/_#{file}.scss"
+  end
+end

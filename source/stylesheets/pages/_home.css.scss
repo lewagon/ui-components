@@ -4,24 +4,32 @@
     padding: 20px;
     margin: 20px 0;
     box-shadow: 1px 1px 3px #F0F0F0;
+    position: relative;
+    padding-bottom: 80px;
+  }
+
+  .download {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
   }
 
   // Headings
 
-  h1, h2, h3 {
+  h1.readme-header, h2.readme-header, h3.readme-header {
     color: #7D7979;
     font-weight: bold;
     line-height: 25px;
     margin: 10px 0;
     text-transform: uppercase;
   }
-  h1 {
+  h1.readme-header {
     font-size: 17px;
   }
-  h2 {
+  h2.readme-header {
     font-size: 15px;
   }
-  h3 {
+  h3.readme-header {
     font-size: 13px;
   }
 }
