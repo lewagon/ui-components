@@ -18,14 +18,8 @@
     text-align: center;
     color: #E6E6E6;
     border-right: 1px solid rgba(0, 0, 0, 0.03);
-
-    &:last-child {
-      border-right: none;
-    }
-
-    &:hover {
-      color: $brand-color !important;
-    }
+    &:last-child { border-right: none }
+    &:hover { color: $brand-color !important }
   }
   &-upvote {
     text-align: center;
@@ -50,9 +44,7 @@
     &:hover {
       color: #5898f1;
       cursor: pointer;
-      .post-upvote-arrow {
-        border-bottom: 9px solid #5898f1;
-      }
+      .post-upvote-arrow { border-bottom: 9px solid #5898f1 }
     }
   }
   &-body {
@@ -69,15 +61,13 @@
     color: transparent;
     font-size: 15px;
     transition: all 0.15s ease;
+    border-color: transparent;
   }
   &:hover {
     background: #f7f7fa;
     cursor: pointer;
-    .post-upvote{
-      transform: scale(1.2);
-    }
-    .post-control-hidden{
-      color: #E6E6E6;
-    }
+    .post-control-hidden { border-color: rgba(0, 0, 0, 0.03) }
+    .post-upvote{ transform: scale(1.2) }
+    .post-control-hidden{ color: #E6E6E6 }
   }
 }
