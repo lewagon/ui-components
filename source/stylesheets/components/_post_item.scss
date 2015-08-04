@@ -17,6 +17,12 @@
     flex: 1 1 0;
     text-align: center;
     color: #E6E6E6;
+    border-right: 1px solid rgba(0, 0, 0, 0.03);
+
+    &:last-child {
+      border-right: none;
+    }
+
     &:hover {
       color: $brand-color !important;
     }
