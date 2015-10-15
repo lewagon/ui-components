@@ -4,6 +4,8 @@
   transition: all 0.3s ease;
   &-fixed {
     position: fixed;
+    left: 0px;
+    top: 0px;
     z-index: 1;
     width: 100%;
   }
