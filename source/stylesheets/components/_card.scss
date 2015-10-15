@@ -4,55 +4,55 @@
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   color: white;
   margin: 20px auto;
-  &-bg{
-    background-size: cover;
-    border-radius: 3px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
+}
+.card-bg{
+  background-size: cover;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.card-gradient {
+  background-image: linear-gradient(to right, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.1) 80%);
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.card-description {
+  font-size: 10px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.card-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  h2 {
+    font-size: 24px;
   }
-  &-shadow {
-    background-image: linear-gradient(to right, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.1) 80%);
-    border-radius: 3px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
+  p {
+    font-size: 13px;
   }
-  &-description {
-    font-size: 10px;
-    text-transform: uppercase;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-  }
-  &-text {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    h2 {
-      font-size: 24px;
-    }
-    p {
-      font-size: 13px;
-    }
-  }
-  &-user {
-    position: absolute;
-    right: 10px;
-    top: 10px;
-  }
-  &-link {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index:2;
-    background: black;
-    opacity: 0;
-    &:hover{
-      opacity: 0.1;
-    }
+}
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index:2;
+  background: black;
+  opacity: 0;
+  &:hover{
+    opacity: 0.1;
   }
 }
