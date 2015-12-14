@@ -1,25 +1,9 @@
 .card {
-  position: relative;
   height: 175px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
   color: white;
-  margin: 20px auto;
-}
-.card-bg{
-  background-size: cover;
-  border-radius: 3px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-}
-.card-gradient {
-  background-image: linear-gradient(to right, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.1) 80%);
-  border-radius: 3px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
+  position: relative;
 }
 .card-category {
   font-size: 10px;
