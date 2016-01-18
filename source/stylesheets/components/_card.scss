@@ -5,14 +5,19 @@
   color: white;
   position: relative;
 }
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
 .card-category {
-  font-size: 10px;
-  text-transform: uppercase;
   position: absolute;
   top: 10px;
   left: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
 }
-.card-text {
+.card-description {
   position: absolute;
   bottom: 10px;
   left: 10px;
@@ -22,11 +27,6 @@
   p {
     font-size: 13px;
   }
-}
-.card-user {
-  position: absolute;
-  right: 10px;
-  top: 10px;
 }
 .card-link {
   position: absolute;

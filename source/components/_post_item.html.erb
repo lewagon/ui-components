@@ -1,35 +1,73 @@
-<h3 class="readme-header">Visible controls</h3>
+<h3 class="readme-header">Basics product</h3>
 
-<div class="post">
-  <div class='post-upvote'>
-    <div class="post-upvote-arrow"></div>
-    <div class='post-upvote-count'>95</div>
+<div class="product">
+  <div class='product-upvote'>
+    <div class="product-arrow"></div>
+    <div class='product-count'>95</div>
   </div>
-  <div class='post-body'>
+  <div class='product-body'>
     <h3>Kudoz</h3>
     <p>Les meilleures offres d'emploi cadre sur mobile</p>
   </div>
-  <div class='post-controls'>
-    <i class="fa fa-bars post-control"></i>
-    <i class="fa fa-star post-control"></i>
-    <i class="fa fa-heart post-control"></i>
-  </div>
+  <ul class="list-inline product-controls">
+    <li><a href=""><i class="fa fa-heart"></i></a></li>
+    <li><a href=""><i class="fa fa-share"></i></a></li>
+    <li><a href=""><i class="fa fa-star"></i></a></li>
+  </ul>
 </div>
 
 <% code("html") do %>
-<div class="post">
-  <div class='post-upvote'>
-    <div class="post-upvote-arrow"></div>
-    <div class='post-upvote-count'>95</div>
+<div class="product">
+  <div class='product-upvote'>
+    <div class="product-arrow"></div>
+    <div class='product-count'>95</div>
   </div>
-  <div class='post-body'>
+  <div class='product-body'>
     <h3>Kudoz</h3>
     <p>Les meilleures offres d'emploi cadre sur mobile</p>
   </div>
-  <div class='post-controls'>
-    <i class="fa fa-bars post-control"></i>
-    <i class="fa fa-star post-control"></i>
-    <i class="fa fa-heart post-control"></i>
+  <div class='product-controls'>
+    <i class="fa fa-bars product-control"></i>
+    <i class="fa fa-star product-control"></i>
+    <i class="fa fa-heart product-control"></i>
+  </div>
+</div>
+<% end %>
+
+<h3 class="readme-header">Product with image</h3>
+
+<div class="product">
+  <div class='product-upvote'>
+    <div class="product-arrow"></div>
+    <div class='product-count'>95</div>
+  </div>
+  <img src="http://unsplash.it/150/100/?random" alt="" class="product-image">
+  <div class='product-body'>
+    <h3>Kudoz</h3>
+    <p>Les meilleures offres d'emploi cadre sur mobile</p>
+  </div>
+  <ul class="list-inline product-controls">
+    <li><a href=""><i class="fa fa-heart"></i></a></li>
+    <li><a href=""><i class="fa fa-share"></i></a></li>
+    <li><a href=""><i class="fa fa-star"></i></a></li>
+  </ul>
+</div>
+
+<% code("html") do %>
+<div class="product">
+  <div class='product-upvote'>
+    <div class="product-arrow"></div>
+    <div class='product-count'>95</div>
+  </div>
+  <img src="http://unsplash.it/150/100/?random" alt="" class="product-image">
+  <div class='product-body'>
+    <h3>Kudoz</h3>
+    <p>Les meilleures offres d'emploi cadre sur mobile</p>
+  </div>
+  <div class='product-controls'>
+    <i class="fa fa-bars product-control"></i>
+    <i class="fa fa-star product-control"></i>
+    <i class="fa fa-heart product-control"></i>
   </div>
 </div>
 <% end %>
@@ -37,40 +75,32 @@
 
 <h3 class="readme-header">Hidden controls</h3>
 
-<div class="post">
-  <div class='post-upvote'>
-    <div class="post-upvote-arrow"></div>
-    <div class='post-upvote-count'>95</div>
+<div class="product">
+  <div class='product-upvote'>
+    <div class="product-arrow"></div>
+    <div class='product-count'>95</div>
   </div>
-  <div class='post-body'>
+  <img src="http://unsplash.it/150/100/?random" alt="" class="product-image">
+  <div class='product-body'>
     <h3>Kudoz</h3>
     <p>Les meilleures offres d'emploi cadre sur mobile</p>
   </div>
-  <div class='post-controls'>
-    <i class="fa fa-bars post-control post-control-hidden"></i>
-    <i class="fa fa-star post-control post-control-hidden"></i>
-    <div class="post-control">
-      <div class="user-badge-container ">
-        <img src='http://placehold.it/50x50' class="avatar"/>
-        <div class="user-badge user-badge-black user-badge-bordered">M</div>
-      </div>
-    </div>
-  </div>
+  <ul class="list-inline product-controls product-controls-hidden">
+    <li><a href=""><i class="fa fa-heart"></i></a></li>
+    <li><a href=""><i class="fa fa-share"></i></a></li>
+    <li><a href=""><i class="fa fa-star"></i></a></li>
+  </ul>
 </div>
 
 <% code("html") do %>
-<div class="post">
-  <div class='post-upvote'>...</div>
-  <div class='post-body'>...</div>
-  <div class='post-controls'>
-    <i class="fa fa-bars post-control post-control-hidden"></i>
-    <i class="fa fa-star post-control post-control-hidden"></i>
-    <div class="post-control">
-      <div class="user-badge-container ">
-        <img src='http://placehold.it/50x50' class="avatar"/>
-        <div class="user-badge user-badge-black user-badge-bordered">M</div>
-      </div>
-    </div>
+<div class="product">
+  <div class='product-upvote'>...</div>
+  <div class='product-body'>...</div>
+  <img src="http://unsplash.it/150/100/?random" alt="" class="product-image">
+  <div class='product-controls'>
+    <i class="fa fa-bars product-control product-control-hidden"></i>
+    <i class="fa fa-star product-control product-control-hidden"></i>
+    <i class="fa fa-heart product-control product-control-hidden"></i>
   </div>
 </div>
 <% end %>

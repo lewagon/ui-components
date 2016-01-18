@@ -1,73 +1,88 @@
-.post {
+.product {
   display: flex;
   align-items: center;
+  padding: 20px;
+  border-radius: 3px;
   transition: all 0.15s ease;
-  &-upvote {
-    flex: 0 0 80px;
+}
+
+// Body design
+.product-body {
+  flex: 1 1 auto;
+  h3 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 0;
   }
-  &-body {
-    flex: 1 1 auto;
-  }
-  &-controls {
-    flex: 0 0 150px;
-    display: flex;
-    align-items: center;
-  }
-  &-control {
-    flex: 1 1 0;
-    text-align: center;
-    color: #E6E6E6;
-    border-right: 1px solid rgba(0, 0, 0, 0.03);
-    &:last-child { border-right: none }
-    &:hover { color: $brand-color !important }
-  }
-  &-upvote {
-    text-align: center;
-    transition: all 0.15s ease;
-    &-count {
-      font-size: 13px;
-      line-height: 20px;
-      margin: 2px 0 0;
-      font-weight: bold;
-    }
-    &-arrow {
-      transition: all 0.15s ease;
-      width: 0;
-      height: 0;
-      border-left: 6px solid transparent;
-      border-right: 6px solid transparent;
-      border-top: 6px solid transparent;
-      border-bottom: 9px solid black;
-      border-radius: 2px;
-      margin: auto;
-    }
-    &:hover {
-      color: #5898f1;
-      cursor: pointer;
-      .post-upvote-arrow { border-bottom: 9px solid #5898f1 }
-    }
-  }
-  &-body {
-    h3 {
-      font-weight: bold;
-      font-size: 23px
-    }
-    p {
-      font-weight: 500;
-      color: #999999;
-    }
-  }
-  &-control-hidden {
-    color: transparent;
-    font-size: 15px;
-    transition: all 0.15s ease;
-    border-color: transparent;
-  }
-  &:hover {
-    background: #f7f7fa;
-    cursor: pointer;
-    .post-control-hidden { border-color: rgba(0, 0, 0, 0.03) }
-    .post-upvote{ transform: scale(1.2) }
-    .post-control-hidden{ color: #E6E6E6 }
+  p {
+    font-weight: lighter;
+    color: #999999;
+    margin-bottom: 0;
   }
 }
+
+// Product image
+.product-image {
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+// Upvote design
+.product-upvote {
+  padding-right: 20px;
+  text-align: center;
+  transition: all 0.15s ease;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  .product-count {
+    margin: 2px 0 0;
+  }
+  .product-arrow {
+    transition: all 0.15s ease;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid transparent;
+    border-bottom: 9px solid black;
+    border-radius: 2px;
+    margin: auto;
+  }
+}
+
+// Controls design
+
+.product-controls {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+}
+.product-controls a {
+  padding: 0 20px;
+  font-size: 17px;
+  color: #E6E6E6;
+  &:hover { color: $brand-color !important }
+}
+.product-controls-hidden a {
+  color: transparent;
+  font-size: 15px;
+  transition: all 0.15s ease;
+  border-color: transparent;
+}
+
+// Hover effects
+
+.product-upvote:hover {
+  color: #5898f1;
+  cursor: pointer;
+  .product-arrow { border-bottom: 9px solid #5898f1 }
+}
+.product:hover {
+  background: #f7f7fa;
+  cursor: pointer;
+  .product-upvote{ transform: scale(1.2) }
+  .product-controls-hidden a { color: #E6E6E6 }
+}
+
