@@ -1,27 +1,22 @@
 .banner {
   color: white;
-  background-size: cover !important;
+  text-align: center;
   height: 100vh;
+  background-size: cover !important;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .banner-content h1 {
+  font-size: 50px;
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
 }
 .banner-content p {
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: lighter;
   color: rgba(255, 255, 255, 0.7);
-  line-height: 3;
-  margin-bottom: 18px;
 }
-.banner-content .btn {
-  padding: 12px 30px;
-  border-radius: 3px;
-  font-weight: bold;
-  border: none;
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
-  letter-spacing: 1px;
-  font-size: 16px;
+.banner .btn {
+  margin-top: 20px;
 }
