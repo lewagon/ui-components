@@ -1,4 +1,9 @@
-<nav class="navbar-wagon">
+<p>Take your time to understand <strong>each part</strong> of the HTML code (logo, links, search form, separators, button).</p>
+<p>Feel free to reorganize elements or delete the elements you don't need (e.g. delete search form if you don't have a navbar form).</p>
+
+<br>
+
+<div class="navbar-wagon">
   <div class="container-fluid navbar-wagon-container">
 
     <% link_to "/" do %>
@@ -40,20 +45,24 @@
     <a href="" class="navbar-wagon-item navbar-wagon-button btn">Post stuff</a>
 
   </div>
-</nav>
+</div>
 
-<p><strong>Notice</strong>: Add the <code>navbar-wagon-fixed</code> class to your navbar if you want it to be fixed-top</p>
+<br>
+<p><strong>Notice</strong>: change class to <code>"navbar-wagon navbar-wagon-fixed"</code> if you want a fixed-top navbar.</p>
 
 <% code("html") do %>
-<nav class="navbar-wagon">
-  <div class="container navbar-wagon-container">
+<div class="navbar-wagon">
+  <div class="navbar-wagon-container container-fluid ">
 
+    <!-- Logo -->
     <a href="/">
       <img src="logo.png" class="navbar-wagon-logo">
     </a>
 
+    <!-- Pushing navigation content on the right -->
     <div class="navbar-wagon-pusher"></div>
 
+    <!-- Search form -->
     <form action="" class="navbar-wagon-search hidden-xs hidden-sm">
       <input type="text" class="navbar-wagon-search-input" placeholder="Search something">
       <button type="submit" class="navbar-wagon-search-btn">
@@ -61,15 +70,25 @@
       </button>
     </form>
     <hr class="hidden-xs hidden-sm">
+
+    <!-- Text link -->
     <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+
+    <!-- Vertical separator -->
     <hr>
+
+    <!-- Link with icon -->
     <a href="" class="navbar-wagon-item navbar-wagon-link">
       <div class="icon-badge-container">
         <i class="fa fa-envelope-o"></i>
         <div class="icon-badge icon-badge-blue">3</div>
       </div>
     </a>
+
+    <!-- Vertical separator -->
     <hr>
+
+    <!-- Link with profile pic and dropdown -->
     <div class="navbar-wagon-item">
       <div class="dropdown">
         <img src="http://placehold.it/50x50" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
@@ -80,8 +99,12 @@
         </ul>
       </div>
     </div>
+
+    <!-- Vertical separator -->
     <hr>
+
+    <!-- Link with button design(call-to-action) -->
     <a href="" class="navbar-wagon-item navbar-wagon-button btn">Post stuff</a>
   </div>
-</nav>
+</div>
 <% end %>
