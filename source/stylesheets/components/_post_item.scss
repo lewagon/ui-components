@@ -6,7 +6,7 @@
   transition: all 0.15s ease;
 }
 
-// Body design
+/* Body design */
 .product-body {
   flex: 1 1 auto;
   h3 {
@@ -21,13 +21,13 @@
   }
 }
 
-// Product image
+/* Product image */
 .product-image {
   border-radius: 10px;
   margin-right: 20px;
 }
 
-// Upvote design
+/* Upvote design */
 .product-upvote {
   padding-right: 20px;
   text-align: center;
@@ -51,8 +51,7 @@
   }
 }
 
-// Controls design
-
+/* Controls design */
 .product-controls {
   display: flex;
   align-items: center;
@@ -72,8 +71,7 @@
   border-color: transparent;
 }
 
-// Hover effects
-
+/* Hover effects */
 .product-upvote:hover {
   color: #5898f1;
   cursor: pointer;
