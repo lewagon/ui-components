@@ -4,9 +4,9 @@
 .media-body {
   flex: 1 1 auto;
   padding: 20px;
-  img {
-    width: 100%;
-  }
+}
+.media-body img {
+  width: 100%;
 }
 .media-aside {
   flex: 0 0 400px;
@@ -17,10 +17,10 @@
 }
 .media-section {
   margin: 40px auto;
-  &:first-child {
-    margin-top: 0;
-  }
-  &:last-child {
-    margin-bottom: 0;
-  }
+}
+.media-section:first-child {
+  margin-top: 0;
+}
+.media-section:last-child {
+  margin-bottom: 0;
 }
