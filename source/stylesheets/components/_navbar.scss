@@ -5,7 +5,7 @@
   transition: all 0.3s ease;
 }
 
-/* Optional class to fix navbar on top */
+/* Optional class to fix the navbar on top */
 .navbar-wagon-fixed {
   position: fixed;
   left: 0px;
@@ -14,37 +14,32 @@
   width: 100%;
 }
 
-/* Navbar vertical separators */
-.navbar-wagon hr {
-  height: 12px;
-  width: 1px;
-  background-color: rgba(0, 0, 0, 0.2);
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-/* Navbar container */
+/* Navbar container (main flexbox)*/
 .navbar-wagon-container {
   display: flex;
   height: 70px;
+  padding: 0px 30px;
   align-items: center;
+  justify-content: space-between;
 }
 
 /* Navbar logo */
-.navbar-wagon-logo {
+.navbar-wagon-brand img {
   width: 50px;
 }
 
-/* Item pushing right navigation */
-.navbar-wagon-pusher {
-  flex: 1 1 auto;
+/* Navbar right section (with form, links, button) */
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Navbar item */
 .navbar-wagon-item {
   flex: 0 1 auto;
   cursor: pointer;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 /* Navbar standard link */
@@ -52,7 +47,7 @@
   color: #616668;
   font-size: 14px;
 }
-.navbar-wagon:hover {
+.navbar-wagon-link:hover {
   color: #da552f;
   text-decoration: none;
 }
