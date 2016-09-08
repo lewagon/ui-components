@@ -10017,7 +10017,7 @@ button.close {
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6; }
 
-/* line 1, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_post_item.scss */
+/* line 1, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product {
   display: flex;
   align-items: center;
@@ -10026,31 +10026,31 @@ button.close {
   transition: all 0.15s ease; }
 
 /* Body design */
-/* line 10, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_post_item.scss */
+/* line 10, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product-body {
   flex: 1 1 auto; }
 
-/* line 13, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_post_item.scss */
+/* line 13, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product-body h3 {
   font-weight: bold;
   font-size: 23px;
   margin-top: 0; }
 
-/* line 18, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_post_item.scss */
+/* line 18, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product-body p {
   font-weight: lighter;
   color: #999999;
   margin-bottom: 0; }
 
 /* Product image */
-/* line 25, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_post_item.scss */
+/* line 25, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product-image {
   border-radius: 10px;
   margin-right: 20px;
   width: 175px; }
 
 /* Upvote design */
-/* line 32, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_post_item.scss */
+/* line 32, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product-upvote {
   padding-right: 20px;
   text-align: center;
@@ -10059,11 +10059,11 @@ button.close {
   font-size: 13px;
   line-height: 20px; }
 
-/* line 40, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_post_item.scss */
+/* line 40, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product-count {
   margin: 2px 0 0; }
 
-/* line 43, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_post_item.scss */
+/* line 43, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product-arrow {
   transition: all 0.15s ease;
   width: 0;
@@ -10076,24 +10076,24 @@ button.close {
   margin: auto; }
 
 /* Controls design */
-/* line 56, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_post_item.scss */
+/* line 56, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product-controls {
   display: flex;
   align-items: center;
   text-align: center;
   margin: 0px; }
 
-/* line 62, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_post_item.scss */
+/* line 62, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product-controls a {
   padding: 0 20px;
   font-size: 17px;
   color: #E6E6E6; }
 
-/* line 67, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_post_item.scss */
+/* line 67, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product-controls a:hover {
   color: #D3473C !important; }
 
-/* line 70, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_post_item.scss */
+/* line 70, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product-controls-hidden a {
   color: transparent;
   font-size: 15px;
@@ -10101,21 +10101,21 @@ button.close {
   border-color: transparent; }
 
 /* Hover effects */
-/* line 78, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_post_item.scss */
+/* line 78, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product:hover {
   background: #f7f7fa;
   cursor: pointer; }
 
-/* line 82, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_post_item.scss */
+/* line 82, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product-upvote:hover, .product-upvote.product-upvote-upvoted {
   color: #5898f1;
   cursor: pointer; }
 
-/* line 87, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_post_item.scss */
+/* line 87, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product:hover .product-controls-hidden a {
   color: #E6E6E6; }
 
-/* line 88, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_post_item.scss */
+/* line 88, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product-upvote:hover .product-arrow {
   border-bottom: 9px solid #5898f1; }
 
