@@ -10111,11 +10111,15 @@ button.close {
   color: #5898f1;
   cursor: pointer; }
 
-/* line 87, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
+/* line 86, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
+.product-upvote-upvoted .product-arrow {
+  border-bottom-color: #5898f1; }
+
+/* line 90, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product:hover .product-controls-hidden a {
   color: #E6E6E6; }
 
-/* line 88, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
+/* line 91, /Users/seb/code/lewagon/ui-components/source/stylesheets/components/_product_item.scss */
 .product-upvote:hover .product-arrow {
   border-bottom: 9px solid #5898f1; }
 
