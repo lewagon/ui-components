@@ -39,11 +39,6 @@
 # Auto-prefixing of CSS code with vendor prefix
 activate :autoprefixer
 
-# Reload the browser automatically whenever files change
-configure :development do
-  activate :livereload
-end
-
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
@@ -56,6 +51,8 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+set :fonts_dir, "fonts"
 
 # Build-specific configuration
 configure :build do
@@ -74,18 +71,6 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
-end
-
-# Deployment
-activate :deploy do |deploy|
-  deploy.method = :git
-  deploy.build_before = true
-
-  # Optional Settings
-  # deploy.remote = 'custom-remote' # remote name or git url, default: origin
-  # deploy.branch = 'custom-branch' # default: gh-pages
-  # deploy.strategy = :submodule # commit strategy: can be :force_push or :submodule, default: :force_push
-  # deploy.commit_message = 'custom-message' # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
 
 # Syntax Highlight Support
