@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 
 gem "middleman", "~> 4.2.1"
 gem "middleman-sprockets"
+gem "middleman-deploy", "2.0.0.pre.alpha"
 
 # Assets
 gem 'jquery-middleman'
