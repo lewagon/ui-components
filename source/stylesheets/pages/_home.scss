@@ -1,55 +1,55 @@
-.readme {
-  &-section {
-    background-color: #FAFAFA;
-    padding: 20px;
-    margin: 20px 0;
-    box-shadow: 1px 1px 3px #F0F0F0;
-    position: relative;
-  }
 
-  .download {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-  }
+.readme-section {
+  background-color: #FAFAFA;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 1px 1px 3px #F0F0F0;
+  position: relative;
+}
 
-  pre {
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-  }
+.readme .download {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
 
-  // Headings
+.readme pre {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
 
-  h1.readme-header, h2.readme-header, h3.readme-header {
-    color: #7D7979;
-    font-weight: bold;
-    line-height: 25px;
-    margin: 10px 0;
-    text-transform: uppercase;
+// Headings
+
+.readme h1.readme-header, .readme h2.readme-header, .readme h3.readme-header {
+  color: #7D7979;
+  font-weight: bold;
+  line-height: 25px;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+.readme h1.readme-header {
+  font-size: 17px;
+}
+.readme h2.readme-header {
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    font-size: 14px;
+    font-weight: bolder;
   }
-  h1.readme-header {
-    font-size: 17px;
-  }
-  h2.readme-header {
-    font-size: 17px;
-    letter-spacing: 1px;
-    font-weight: lighter;
-    text-align: center;
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgba(0,0,0,0.05);
-    margin-top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    a {
-      font-size: 14px;
-      font-weight: bolder;
-    }
-    a:hover {
-      text-decoration: none;
-    }
-  }
-  h3.readme-header {
-    font-size: 13px;
+  a:hover {
+    text-decoration: none;
   }
 }
+.readme h3.readme-header {
+  font-size: 13px;
+}
+

@@ -65,14 +65,13 @@ title: Le Wagon UI components
 
 
       <section class="readme-section" id="banners">
-        <h2 class="readme-header">Banners</h2>
-        <%= partial "components/banner" %>
-
-        <div class="download">
+        <h2 class="readme-header">
+          <span>Banners</span>
           <% link_to github_sass_url("banner") do %>
             <i class="fa fa-code"></i> View css code
           <% end %>
-        </div>
+        </h2>
+        <%= partial "components/banner" %>
       </section>
 
       <section class="readme-section" id="cards">
