@@ -11,9 +11,9 @@ GEM
     autoprefixer-rails (7.1.2.3)
       execjs
     backports (3.8.0)
-    bootstrap-sass (3.3.5.1)
-      autoprefixer-rails (>= 5.0.0.1)
-      sass (>= 3.3.0)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -28,6 +28,8 @@ GEM
     fast_blank (1.0.0)
     fastimage (2.1.0)
     ffi (1.9.18)
+    font-awesome-sass (4.2.2)
+      sass (~> 3.2)
     haml (5.0.1)
       temple (>= 0.8.0)
       tilt
@@ -128,6 +130,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass (~> 3.3.1)
+  font-awesome-sass (~> 4.2.0)
   jquery-middleman
   middleman (~> 4.2.1)
   middleman-autoprefixer

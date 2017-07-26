@@ -2,123 +2,129 @@
 title: Le Wagon UI components
 ---
 
-<h1 class="text-center" style="font-size: 30px;margin-top: 40px;margin-bottom: 30px;">Le Wagon UI components</h2>
 
-
-<div class="container-fluid readme">
+<h1 class="text-center" style="font-size: 26px;margin-top: 50px;margin-bottom: 30px; font-weight: bolder;">
+  Le Wagon's components
+</h1>
+<div class="container readme">
   <div class="row">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-
       <section class="readme-section">
-
         <h2 class="readme-header">Getting started</h2>
-        <br>
-        <p>Before you use one of our components:</p>
+        <p>
+          Add a new CSS file (e.g. <code>avatar.css</code>) in your <code>components</code>, copy/paste our CSS, then use the HTML code of the components wherever you want. Here are available components:
+        </p>
+
         <ul>
-          <li style="margin-bottom: 10px">Make sure you <strong>understand the HTML structure</strong> of this component.</li>
-          <li style="margin-bottom: 10px">Click on the "View CSS code" button and make sure you <strong>understand the associated CSS code and its "graphical logic"</strong>.</li>
-          <li style="margin-bottom: 10px">Add a new .CSS  file (e.g. <code>avatar.css</code>) in your stylesheets <code>components</code> folder, copy/paste our CSS code inside, and then use the HTML code wherever you want.</li>
+          <li>
+            <a href="#avatars">Avatars</a>
+          </li>
+          <li>
+            <a href="#buttons">Buttons</a>
+          </li>
+          <li>
+            <a href="#banners">Banners</a>
+          </li>
+          <li>
+            <a href="#cards">Cards</a>
+          </li>
+          <li>
+            <a href="#messages">Messages</a>
+          </li>
+          <li>
+            <a href="#navbar">Navbar</a>
+          </li>
+          <li>
+            <a href="#tabs">Tabs</a>
+          </li>
+          <li>
+            <a href="#upvotes">List with upvote</a>
+          </li>
         </ul>
       </section>
 
-      <section class="readme-section" id="avatar">
-        <h2 class="readme-header">Avatar</h2>
+      <section class="readme-section" id="avatars">
+        <h2 class="readme-header">
+          <span>Avatars</span>
+          <% link_to github_sass_url("avatar") do %>
+            <i class="fa fa-code"></i> view CSS code
+          <% end %>
+        </h2>
         <%= partial "components/avatar" %>
-
-        <div class="download">
-          <%= link_to "View CSS code", github_sass_url("avatar"), class: "btn btn-primary"%>
-        </div>
       </section>
 
-      <section class="readme-section" id="button">
-        <h2 class="readme-header">Button</h2>
+      <section class="readme-section" id="buttons">
+        <h2 class="readme-header">
+          <span>Buttons</span>
+          <% link_to github_sass_url("button") do %>
+            <i class="fa fa-code"></i> View css code
+          <% end %>
+        </h2>
         <%= partial "components/button" %>
-
-        <div class="download">
-          <%= link_to "View CSS code", github_sass_url("button"), class: "btn btn-primary"%>
-        </div>
       </section>
 
-      <section class="readme-section" id="badge">
-        <h2 class="readme-header">Badge</h2>
-        <%= partial "components/user_badge" %>
-        <%= partial "components/icon_badge" %>
 
-        <div class="download">
-          <%= link_to "View CSS code", github_sass_url("badge"), class: "btn btn-primary"%>
-        </div>
-      </section>
-
-      <section class="readme-section" id="banner">
-        <h2 class="readme-header">Banner</h2>
+      <section class="readme-section" id="banners">
+        <h2 class="readme-header">Banners</h2>
         <%= partial "components/banner" %>
 
         <div class="download">
-          <%= link_to "View CSS code", github_sass_url("banner"), class: "btn btn-primary"%>
+          <% link_to github_sass_url("banner") do %>
+            <i class="fa fa-code"></i> View css code
+          <% end %>
         </div>
       </section>
 
-      <section class="readme-section" id="card">
-        <h2 class="readme-header">card</h2>
+      <section class="readme-section" id="cards">
+        <h2 class="readme-header">
+          <span>Cards</span>
+          <% link_to github_sass_url("card") do %>
+            <i class="fa fa-code"></i> View css code
+          <% end %>
+        </h2>
         <%= partial "components/card" %>
 
-        <div class="download">
-          <%= link_to "View CSS code", github_sass_url("card"), class: "btn btn-primary"%>
-        </div>
       </section>
 
-      <section class="readme-section" id="message">
-        <h2 class="readme-header">Message</h2>
+      <section class="readme-section" id="messages">
+        <h2 class="readme-header">
+          Messages
+          <% link_to github_sass_url("message") do %>
+            <i class="fa fa-code"></i> View css code
+          <% end %>
+        </h2>
         <%= partial "components/message" %>
-
-        <div class="download">
-          <%= link_to "View CSS code", github_sass_url("message"), class: "btn btn-primary"%>
-        </div>
-      </section>
-
-      <section class="readme-section" id="list">
-        <h2 class="readme-header">List item</h2>
-        <%= partial "components/product_item" %>
-
-        <div class="download">
-          <%= link_to "View CSS code", github_sass_url("product_item"), class: "btn btn-primary"%>
-        </div>
-      </section>
-
-      <section class="readme-section" id="tabs">
-        <h2 class="readme-header">tabs</h2>
-        <%= partial "components/tabs" %>
-
-        <div class="download">
-          <%= link_to "View CSS code", github_sass_url("tabs"), class: "btn btn-primary"%>
-        </div>
       </section>
 
       <section class="readme-section" id="navbar">
-        <h2 class="readme-header">Navbar</h2>
+        <h2 class="readme-header">
+          <span>Navbar</span>
+          <% link_to github_sass_url("navbar") do %>
+            <i class="fa fa-code"></i> View css code
+          <% end %>
+        </h2>
         <%= partial "components/navbar" %>
-
-        <div class="download">
-          <%= link_to "View CSS code", github_sass_url("navbar"), class: "btn btn-primary"%>
-        </div>
       </section>
 
-      <section class="readme-section" id="shared">
-        <h2 class="readme-header">Share Links</h2>
-        <%= partial "components/share_links" %>
-
-        <div class="download">
-          <%= link_to "View CSS code", github_sass_url("share_links"), class: "btn btn-primary"%>
-        </div>
+      <section class="readme-section" id="tabs">
+        <h2 class="readme-header">
+          <span>Tabs</span>
+          <% link_to github_sass_url("tabs") do %>
+            <i class="fa fa-code"></i> View css code
+          <% end %>
+        </h2>
+        <%= partial "components/tabs" %>
       </section>
 
-      <section class="readme-section" id="media">
-        <h2 class="readme-header">Media Layout</h2>
-        <%= partial "components/media_layout" %>
 
-        <div class="download">
-          <%= link_to "View CSS code", github_sass_url("media_layout"), class: "btn btn-primary"%>
-        </div>
+      <section class="readme-section" id="upvotes">
+        <h2 class="readme-header">
+          <span>Item to upvote</span>
+          <% link_to github_sass_url("product_item") do %>
+            <i class="fa fa-code"></i> View css code
+          <% end %>
+        </h2>
+        <%= partial "components/product_item" %>
       </section>
 
     </div>
