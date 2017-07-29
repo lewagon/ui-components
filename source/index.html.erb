@@ -35,6 +35,9 @@ title: Le Wagon UI components
             <a href="#navbar">Navbar</a>
           </li>
           <li>
+            <a href="#footer">Footer</a>
+          </li>
+          <li>
             <a href="#tabs">Tabs</a>
           </li>
           <li>
@@ -103,6 +106,16 @@ title: Le Wagon UI components
           <% end %>
         </h2>
         <%= partial "components/navbar" %>
+      </section>
+
+      <section class="readme-section" id="footer">
+        <h2 class="readme-header">
+          <span>Footer</span>
+          <% link_to github_sass_url("footer") do %>
+            <i class="fa fa-code"></i> View css code
+          <% end %>
+        </h2>
+        <%= partial "components/footer" %>
       </section>
 
       <section class="readme-section" id="tabs">
