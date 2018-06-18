@@ -7,8 +7,8 @@ gem "middleman-sprockets"
 gem "middleman-deploy", "2.0.0.pre.alpha"
 
 # Assets
-gem 'font-awesome-sass', '~> 4.2.0'
-gem 'bootstrap-sass', '~> 3.3.1'
+gem 'font-awesome-sass'
+gem 'bootstrap-sass'
 gem 'jquery-middleman'
 
 # CSS performance
