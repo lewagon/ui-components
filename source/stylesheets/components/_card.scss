@@ -1,19 +1,18 @@
 .card {
-  background-color: white;
   height: 280px;
+  text-decoration: none;
+  color: #333333;
+  opacity: 1;
 }
 .card:hover {
-  opacity: 0.9;
-}
-.card-link, .card-link:hover {
   text-decoration: none;
+  opacity: 0.9;
   color: #333333;
 }
 .card-image {
   height: 175px;
   background-size: cover !important;
   background-position: center;
-  position: relative;
 }
 .card-category {
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
@@ -23,6 +22,8 @@
   padding: 10px;
 }
 .card-description {
+  position: relative;
+  background-color: white;
   padding: 25px 10px 10px 10px;
 }
 .card-description h2 {
@@ -40,6 +41,6 @@
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
   border: white 1px solid;
   position: absolute;
-  bottom: -25px;
+  top: -25px;
   right: 10px;
 }
